@@ -205,3 +205,45 @@ header h1 {
     color: #555;
 
 }
+
+
+
+.rodape {
+
+    text-align: center;
+    margin-top: 30px;
+
+    font-size: 0.8rem;
+
+    color: var(--cor-texto-secundario);
+
+}
+
+.rodape a {
+    color: #000000;
+    margin-top: 10px;
+
+}
+
+
+.rodape p {
+    color: #000000;
+    margin-top: 10px;
+
+}
+
+.nav-link , a{
+
+    color: #0037ff;
+    font-size: 0.9rem;
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+.nav-link:hover {
+    color: #0037ff;
+    text-decoration: underline;
+
+}
