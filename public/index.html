@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mural de Recados</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<header>
+<h1>📝 Mural de Recados</h1>
+</header>
+
+<section class="form-container">
+<form id="form-recado">
+<div class="form-group">
+<label for="autor">Seu Nome:</label>
+<input type="text" id="autor" required>
+</div>
+<div class="form-group">
+<label for="mensagem">Seu Recado:</label>
+<textarea id="mensagem" rows="3" required></textarea>
+</div>
+<button type="submit" class="btn">Enviar Recado</button>
+</form>
+</section>
+
+<section class="recados-container">
+<h2>Últimos Recados</h2>
+<div id="lista-recados">
+<p>Carregando recados...</p>
+</div>
+</section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

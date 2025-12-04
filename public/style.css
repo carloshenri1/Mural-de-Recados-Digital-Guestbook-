@@ -1,0 +1,207 @@
+/* public/style.css */
+
+ 
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 20px; /* Espaçamento para telas de celular */
+
+    background-color: #f4f4f4;
+
+    color: #333;
+
+}
+
+ 
+
+.container {
+
+    max-width: 600px;
+
+    margin: 0 auto;
+
+    background-color: #fff;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+ 
+
+header {
+
+    background-color: #4a90e2;
+
+    color: white;
+
+    padding: 20px;
+
+    text-align: center;
+
+    border-radius: 8px 8px 0 0;
+
+}
+
+ 
+
+header h1 {
+
+    margin: 0;
+
+    font-size: 1.8rem;
+
+}
+
+ 
+
+/* Estilos do Formulário (Mobile-First) */
+
+.form-container {
+
+    padding: 20px;
+
+    border-bottom: 1px solid #eee;
+
+}
+
+ 
+
+.form-group {
+
+    margin-bottom: 15px;
+
+}
+
+ 
+
+.form-group label {
+
+    display: block;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+
+}
+
+ 
+
+.form-group input,
+
+.form-group textarea {
+
+    width: 100%;
+
+    padding: 10px;
+
+    box-sizing: border-box; /* Evita que o padding quebre o layout */
+
+    border: 1px solid #ccc;
+
+    border-radius: 4px;
+
+}
+
+ 
+
+.btn {
+
+    width: 100%;
+
+    padding: 12px;
+
+    background-color: #34a853;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 4px;
+
+    font-size: 1rem;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: background-color 0.2s;
+
+}
+
+ 
+
+.btn:hover {
+
+    background-color: #2c8e47;
+
+}
+
+ 
+
+/* Estilos da Lista de Recados */
+
+.recados-container {
+
+    padding: 20px;
+
+}
+
+ 
+
+/* * O "Card" de cada recado
+
+ */
+
+.recado-item {
+
+    background-color: #f9f9f9;
+
+    border: 1px solid #ddd;
+
+    border-radius: 5px;
+
+    padding: 15px;
+
+    margin-bottom: 15px;
+
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+
+}
+
+ 
+
+.recado-item p { /* O texto da mensagem */
+
+    margin: 0 0 10px 0;
+
+    font-size: 1.1rem;
+
+    word-wrap: break-word; /* Garante que palavras longas quebrem */
+
+}
+
+ 
+
+.recado-item .info {
+
+    font-size: 0.9rem;
+
+    color: #777;
+
+    text-align: right;
+
+}
+
+ 
+
+.recado-item .info strong {
+
+    color: #555;
+
+}
